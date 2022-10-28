@@ -1,0 +1,11 @@
+server:
+  port: 1310
+spring:
+  application:
+    name: spring-cloud-user-service-consumer2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1110/eureka
+    register-with-eureka: true
+    fetch-registry: true
